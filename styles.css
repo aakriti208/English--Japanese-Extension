@@ -1,0 +1,150 @@
+:root {
+    --background-color: #f7eaf0;
+    --text-color: #363131;
+}
+
+.dark-mode {
+    --background-color: #444442;
+    --text-color: #D9D9D9;
+}
+
+.main-container {
+    display: grid;
+}
+
+.title {
+    text-align: center;
+}
+
+.content-card {
+    background-color: #D9D9D9;
+    padding: 30px;
+    height: 200px;
+    width: 450px;
+    font-size: 25px;
+    color: black !important;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.japanese-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.english-content {
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.caret {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    font-size: 50px;
+}
+
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    line-height: 1;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.dot {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-card {
+    background-color: var(--background-color);
+    border: 1px solid var(--background-color);
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+.speak-button {
+    background-color: var(--background-color);
+}
+
+.mode-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+}
+
+.dark-mode body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* h1,
+h2,
+h3,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+p {
+  color: var(--text-color);
+} */
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: var(--text-color);
+}
+
+button {
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+.dark-mode button {
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+#data-container {
+    text-align: center;
+}
